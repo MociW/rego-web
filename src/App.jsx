@@ -4,6 +4,7 @@ import Hero from "./components/Hero/Hero";
 import Value from "./components/Value/Value";
 import Step from "./components/Step/Step";
 import Benefit from "./components/Benefit/Benefit";
+import Price from "./components/Price/Price";
 import Footer from "./components/Footer/Footer";
 
 const App = () => {
@@ -12,8 +13,9 @@ const App = () => {
             <Navbar />
             <Hero />
             <Value />
-            <Step />
             <Benefit />
+            <Step />
+            <Price />
             <Footer />
         </div>
     );

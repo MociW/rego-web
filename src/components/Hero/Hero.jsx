@@ -8,22 +8,20 @@ const Hero = () => {
                 <div>
                     <h1 className="text-7xl font-semibold leading-[5rem]">
                         Online calatog
-                        <strong className="block font-semibold text-6xl">
-                            management tool
-                        </strong>
+                        <strong className="block text-6xl font-semibold">management tool</strong>
                     </h1>
                 </div>
                 <div className="">
                     <p className="xl:w-[90%] 2xl:w-[80%] text-lg">
-                        Skyrocket your online store conversion rate the customer
-                        experience with visual merchandising
+                        Skyrocket your online store conversion rate the customer experience with
+                        visual merchandising
                     </p>
                 </div>
-                <div className="flex gap-8 text-lg items-center">
-                    <button className="bg-buttonColor text-textColor h-full py-4 px-9 rounded-full hover:bg-white hover:text-textColor">
+                <div className="flex items-center gap-8 text-lg">
+                    <button className="h-full py-4 rounded-full bg-buttonColor text-textColor px-9 hover:bg-white hover:outline hover:text-textColor">
                         Book a Demo
                     </button>
-                    <button className="outline outline-1 py-4 px-9 rounded-full">
+                    <button className="py-4 rounded-full outline outline-1 px-9">
                         Ask a Question
                     </button>
                 </div>
